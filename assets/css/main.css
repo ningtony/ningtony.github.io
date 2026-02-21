@@ -2628,3 +2628,8 @@ body > article {
 .leftAlign {
 	text-align: left;
 }
+.responsive-title {
+  font-size: 8vw; /* Scales with screen width: ~48px on desktop, ~32px on mobile */
+  line-height: 1.2;
+  margin: 0;
+}
