@@ -2646,6 +2646,5 @@ header.center .responsive-title {
 .no-wrap {
   white-space: nowrap;
   font-size: 0.9em;  /* Slightly larger relative */
-  color: #FFD700;
   text-align: center;
 }
