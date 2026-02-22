@@ -2637,10 +2637,13 @@ body > article {
   flex-direction: column;
   align-items: center;
   text-align: center;
+	margin-top: 0; /* Removes title top margin */
 }
 
 header.center .responsive-title {
   justify-content: center;
+	 margin-top: -1rem; /* Pulls header up */
+    padding-top: 0;
 }
 
 .no-wrap {
@@ -2648,3 +2651,8 @@ header.center .responsive-title {
   font-size: 0.9em;  /* Slightly larger relative */
   text-align: center;
 }
+@media (max-width: 768px) {
+  #top .container {
+    padding-top: 2rem !important; /* Less top space */
+  }
+  
