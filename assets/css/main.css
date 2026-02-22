@@ -2633,7 +2633,14 @@ body > article {
   line-height: 1.2;
   margin: 0 0 1em 0;
 }
+.responsive-title {
+  font-size: 8vw;
+  line-height: 1.2;
+  margin: 0 0 1em 0;
+}
 
 .no-wrap {
+  display: block;
+  font-size: 0.85em;  /* 15% smaller than parent */
   white-space: nowrap;
 }
