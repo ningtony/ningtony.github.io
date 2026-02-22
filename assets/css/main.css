@@ -2639,8 +2639,17 @@ body > article {
   margin: 0 0 1em 0;
 }
 
+.responsive-title {
+  font-size: 8vw;
+  line-height: 1.2;
+  margin: 0 0 1em 0;
+  text-align: center; /* Ensures centering */
+}
+
 .no-wrap {
   display: block;
-  font-size: 0.85em;  /* 15% smaller than parent */
   white-space: nowrap;
+  font-size: 0.85em;  /* Slightly smaller */
+  text-align: center; /* Centers the line */
+  color: #FFD700;     /* Gold—stands out boldly on sky backgrounds */
 }
