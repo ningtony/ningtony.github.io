@@ -2628,29 +2628,15 @@ body > article {
 .leftAlign {
 	text-align: left;
 }
-.responsive-title {
-  font-size: 8vw;
-  line-height: 1.2;
-  margin: 0 0 1em 0;
+header.center .responsive-title {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.responsive-title {
-  font-size: 8vw;
-  line-height: 1.2;
-  margin: 0 0 1em 0;
-}
-
-.responsive-title {
-  font-size: 8vw;
+header.center .no-wrap {
   white-space: nowrap;
-  line-height: 1.2;
-  margin: 0 0 1em 0;
-  text-align: center; /* Ensures centering */
-}
-
-.no-wrap {
-  display: block;
-  white-space: nowrap;
-  font-size: 0.85em;  /* Slightly smaller */
-  text-align: center; /* Centers the line */
-  color: #FFD700;     /* Gold—stands out boldly on sky backgrounds */
+  font-size: 0.85em;
+  color: #FFD700;
 }
