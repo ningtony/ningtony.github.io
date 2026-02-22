@@ -2655,4 +2655,9 @@ header.center .responsive-title {
   #top .container {
     padding-top: 2rem !important; /* Less top space */
   }
+
+#top.coolBackground {
+  background-position: center 30% !important; /* Shifts focus to upper sky/sun */
+  background-size: 120% auto !important;      /* Zooms/crops bottom (bridge) */
+}
   
