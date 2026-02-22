@@ -2629,7 +2629,11 @@ body > article {
 	text-align: left;
 }
 .responsive-title {
-  font-size: 8vw; /* Scales with screen width: ~48px on desktop, ~32px on mobile */
+  font-size: 8vw;
   line-height: 1.2;
-  margin: 0;
+  margin: 0 0 1em 0;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
