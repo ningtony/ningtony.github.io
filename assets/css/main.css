@@ -2628,14 +2628,24 @@ body > article {
 .leftAlign {
 	text-align: left;
 }
-header.center .responsive-title {
-  display: flex !important;
+.responsive-title {
+  font-size: 8vw;
+  font-size: min(8vw, 5rem); /* Caps at 5rem/80px on desktop */
+  line-height: 1.1;          /* Tighter lines */
+  margin: 0 0 2rem 0;        /* More bottom space */
+  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
-header.center .no-wrap {
+
+header.center .responsive-title {
+  justify-content: center;
+}
+
+.no-wrap {
   white-space: nowrap;
-  font-size: 0.85em;
+  font-size: 0.9em;  /* Slightly larger relative */
+  color: #FFD700;
+  text-align: center;
 }
